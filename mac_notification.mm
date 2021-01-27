@@ -76,6 +76,9 @@ MacNotification::~MacNotification() {
 }
 
 NAN_METHOD(MacNotification::New) {
+  // hack to fix notifications with bundleId and icon set
+  [NSSpellChecker sharedSpellChecker];
+
   if (info.IsConstructCall()) {
     if (info[0]->IsUndefined()) {
       Nan::ThrowError("Options are required");
