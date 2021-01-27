@@ -1,6 +1,6 @@
 {
-  "name": "node-mac-notifier",
-  "version": "1.2.0",
+  "name": "@jdxcode/node-mac-notifier",
+  "version": "1.2.1",
   "description": "Create macOS system notifications from Node.js",
   "main": "index.js",
   "scripts": {
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CharlieHess/node-mac-notifier"
+    "url": "https://github.com/jdxcode/node-mac-notifier"
   },
   "keywords": [
     "notifier",
     "notifications",
     "electron"
   ],
-  "author": "Charlie Hess",
+  "author": "Jeff Dickey (@jdxcode)",
   "devDependencies": {
     "mocha": "^6.1.4",
     "nan": "^2.13.2",
